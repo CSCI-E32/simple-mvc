@@ -1,8 +1,8 @@
 define(function(){
 
-    function User(name){
+    var User = function(name){
         this.name = name || 'Default name';
-    }
+    };
 
     return User;
 });
